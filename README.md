@@ -1,9 +1,13 @@
 # Rampee
-A Windows service for managing JMS consumers (ActiveMQ) 
+A Windows service for managing JMS consumers  
 
 # Introduction
 
-The JMS Hub Windows Service is a Java Message Service “consumer” (a.k.a. the client) of the JMS producer (a.k.a. the server).  More information on Java Message Service can be found here (http://www.oracle.com/technetwork/java/jms/index.html).
+### Rampee bridges the gap between JMS and .Net.  
+
+It is a Windows Service that manages JMS “consumers” (a.k.a. the client) of the JMS producer (a.k.a. the server).  More information on Java Message Service can be found here (http://www.oracle.com/technetwork/java/jms/index.html). 
+
+It has been tested successfully with ApacheMQ (http://activemq.apache.org/) and uses the Apache NMS API (http://activemq.apache.org/nms/apachenms.html)
 
 # Requirements
 
